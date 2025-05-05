@@ -1,9 +1,174 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="azv4xFPzB7J9aLtc9fr8">
-    <mxGraphModel>
+    <mxGraphModel dx="1226" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ikFyy5ajva8wL692kpPQ-1" value="CLUB" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="220" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-8" value="&lt;u&gt;Id_club PK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-1">
+          <mxGeometry x="60" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-9" value="Nombre" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-1">
+          <mxGeometry x="70" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-10" value="Ciudad" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-1">
+          <mxGeometry x="70" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-11" value="Año_Fundación" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-1">
+          <mxGeometry x="60" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-2" value="FICHA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="130" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-12" value="&lt;u&gt;Id_club FK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-2">
+          <mxGeometry x="60" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-13" value="&lt;u&gt;Id_jugador FK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-2">
+          <mxGeometry x="60" y="85" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-3" value="JUGADOR" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-14" value="&lt;u&gt;Id_jugador PK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-3">
+          <mxGeometry x="60" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-15" value="Nombre" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-3">
+          <mxGeometry x="60" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-16" value="Nacionalidad" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-3">
+          <mxGeometry x="60" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-17" value="Fecha_Nacimiento" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-3">
+          <mxGeometry x="50" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-18" value="Posición" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-3">
+          <mxGeometry x="50" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-19" value="&lt;u&gt;Id_representante FK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-3">
+          <mxGeometry x="40" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-4" value="REPRESENTANTE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="520" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-23" value="&lt;u&gt;Id_representante PK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-4">
+          <mxGeometry x="40" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-31" value="Nombre" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-4">
+          <mxGeometry x="60" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-32" value="Agencia" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-4">
+          <mxGeometry x="60" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-33" value="Teléfono" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-4">
+          <mxGeometry x="60" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-5" value="CONTRATO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="520" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-22" value="&lt;u&gt;Id_contrato PK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-5">
+          <mxGeometry x="50" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-24" value="Fecha_inicio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-5">
+          <mxGeometry x="60" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-25" value="Fecha_fin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-5">
+          <mxGeometry x="70" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-26" value="Claúsula" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-5">
+          <mxGeometry x="70" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-27" value="Salario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-5">
+          <mxGeometry x="70" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-28" value="&lt;u&gt;Id_jugador FK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-5">
+          <mxGeometry x="60" y="230" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-6" value="JUGADOR_CAMPO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="290" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-21" value="&lt;u&gt;Id_jugador PK_FK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-6">
+          <mxGeometry x="50" y="40" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-34" value="Goles" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-6">
+          <mxGeometry x="60" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-35" value="Asistencias" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-6">
+          <mxGeometry x="60" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-7" value="PORTERO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="40" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-20" value="&lt;u&gt;Id_jugador PK_FK&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-7">
+          <mxGeometry x="40" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-36" value="Porterías_a_cero" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-7">
+          <mxGeometry x="50" y="85" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-37" value="Paradas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ikFyy5ajva8wL692kpPQ-7">
+          <mxGeometry x="60" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ikFyy5ajva8wL692kpPQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="280" as="sourcePoint" />
+            <mxPoint x="250" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="268" />
+              <mxPoint x="240" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="ikFyy5ajva8wL692kpPQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="280" />
+              <mxPoint x="480" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="425" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="280" />
+              <mxPoint x="480" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ikFyy5ajva8wL692kpPQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="700" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="568" />
+              <mxPoint x="720" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="280" as="sourcePoint" />
+            <mxPoint x="810" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="280" />
+              <mxPoint x="760" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ikFyy5ajva8wL692kpPQ-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="280" as="sourcePoint" />
+            <mxPoint x="810" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="280" />
+              <mxPoint x="760" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
