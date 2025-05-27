@@ -1,0 +1,10 @@
+# Ignorar archivos de configuración local
+*.env
+*.local
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar carpetas de IDEs
+.vscode/
+.idea/
