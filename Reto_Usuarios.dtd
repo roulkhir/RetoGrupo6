@@ -1,0 +1,7 @@
+<!ELEMENT usuarios (usuario+)>
+<!ELEMENT usuario (nombre_apellidos, correo, telefono, usuario, contrasena)>
+<!ELEMENT nombre_apellidos (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT contrasena (#PCDATA)>
